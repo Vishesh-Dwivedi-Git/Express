@@ -11,6 +11,7 @@ app.get("/",(req,res)=>{
     const n=req.query.n;
     const ans=sum(n);
     res.send("hi your ans is : "+ans); //can give query in the https//localhost3000/?n=3
+
 })
 
 app.listen(3000);
